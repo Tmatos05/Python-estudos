@@ -8,12 +8,12 @@ jogador_pontos = 0
 pc_pontos = 0
 
 while True:
-    print("\nDigite sua opção: pedra, papel ou tesoura")
+    print("Digite sua opção: pedra, papel ou tesoura")
     print("Ou 'sair' para encerrar o jogo.")
     jogador = input("Você: ").strip().lower()
 
     if jogador == "sair":
-        print("\nJogo encerrado!")
+        print("Jogo encerrado!")
         break
 
     if jogador not in opcoes:
@@ -41,5 +41,5 @@ while True:
 
     print(f"Placar -> Você: {jogador_pontos} | Computador: {pc_pontos}")
 
-print(f"\nPlacar final -> Você: {jogador_pontos} | Computador: {pc_pontos}")
+print(f"Placar final -> Você: {jogador_pontos} | Computador: {pc_pontos}")
 print("Obrigado por jogar!")
