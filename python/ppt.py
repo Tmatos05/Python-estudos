@@ -33,10 +33,10 @@ while True:
         (jogador == "papel" and pc == "pedra") or
         (jogador == "tesoura" and pc == "papel")
     ):
-        print("Você ganhou! 🎉")
+        print("Você ganhou!")
         jogador_pontos += 1
     else:
-        print("Você perdeu! 😅")
+        print("Você perdeu!")
         pc_pontos += 1
 
     print(f"Placar -> Você: {jogador_pontos} | Computador: {pc_pontos}")
